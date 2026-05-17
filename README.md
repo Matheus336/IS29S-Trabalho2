@@ -244,8 +244,8 @@ Matheus Felipe de Aguiar
 E-mails: 
 
 ```txt
-> maguiar@alunos.utfpr.edu.br
-> matheusfelipem336@gmail.com
+~$ maguiar@alunos.utfpr.edu.br
+# matheusfelipem336@gmail.com
 ```
 
 ---
