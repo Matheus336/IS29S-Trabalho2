@@ -1,5 +1,13 @@
 # API Cursos UTFPR
 
+---
+
+# Autor
+
+Matheus Felipe de Aguiar
+
+---
+
 API REST desenvolvida com Spring Boot para gerenciamento acadêmico de:
 
 - Alunos
@@ -7,21 +15,6 @@ API REST desenvolvida com Spring Boot para gerenciamento acadêmico de:
 - Matrículas
 
 A aplicação permite realizar operações completas de CRUD, validações com Jakarta Validation, relacionamentos entre entidades e documentação automática da API utilizando Scalar/OpenAPI.
-
----
-
-# Tecnologias Utilizadas
-
-- Java 21
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- PostgreSQL
-- Jakarta Validation
-- Lombok
-- OpenAPI
-- Scalar
-- Maven
 
 ---
 
@@ -238,10 +231,3 @@ src/main/java
       ├── repository
       └── config
 ```
-
----
-
-# Autor
-
-Matheus Felipe
-
