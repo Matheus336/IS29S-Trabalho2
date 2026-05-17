@@ -8,11 +8,11 @@ O intuito é realizar o gerenciamento de cursos, que deve possuir as seguintes e
 - Cursos
 - Matrículas
 
-A aplicação permite realizar operações completas de CRUD: Create, Read, Update, Delete
-
 ---
 
 # Funcionalidades
+
+CRUD completo de todas as entidades
 
 ## Alunos
 
