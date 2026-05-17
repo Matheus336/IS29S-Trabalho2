@@ -1,5 +1,7 @@
 # API Cursos UTFPR
 
+---
+
 API REST desenvolvida com Spring Boot para a matéria IS29S da Universidade Tecnológica Federal do Paraná - DV
 
 O intuito é realizar o gerenciamento de cursos, que deve possuir as seguintes entidades:
@@ -13,6 +15,8 @@ O intuito é realizar o gerenciamento de cursos, que deve possuir as seguintes e
 # Funcionalidades
 
 CRUD completo de todas as entidades
+
+
 
 ## Alunos
 
