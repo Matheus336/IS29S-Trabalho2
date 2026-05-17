@@ -151,22 +151,6 @@ http://localhost:8080/docs
 
 - Java 21+
 - Maven
-- PostgreSQL
-
----
-
-# Configuração do Banco
-
-Exemplo de configuração no `application.properties`:
-
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/cursos
-spring.datasource.username=postgres
-spring.datasource.password=postgres
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
 
 ---
 
@@ -175,7 +159,7 @@ spring.jpa.show-sql=true
 ## Clonar repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Matheus336/IS29S-Trabalho2.git
 ```
 
 ---
@@ -183,7 +167,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 ## Entrar no projeto
 
 ```bash
-cd seu-repositorio
+cd IS29S-Trabalho2
 ```
 
 ---
