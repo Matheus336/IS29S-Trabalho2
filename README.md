@@ -223,11 +223,13 @@ Adicionalmente, foi adicionado ao projeto as dependências necessárias para ger
 
 ## Acessar documentação
 
-```txt
-- Swagger
-http://localhost:8080/swagger-ui/index.html
 
+- Swagger
+```txt
+http://localhost:8080/swagger-ui/index.html
+```
 - Scalar
+```txt
 http://localhost:8080/docs
 ```
 
