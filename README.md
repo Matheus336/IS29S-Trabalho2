@@ -1,20 +1,14 @@
 # API Cursos UTFPR
 
----
+API REST desenvolvida com Spring Boot para a matéria IS29S da Universidade Tecnológica Federal do Paraná - DV
 
-# Autor
-
-Matheus Felipe de Aguiar
-
----
-
-API REST desenvolvida com Spring Boot para gerenciamento acadêmico de:
+O intuito é realizar o gerenciamento de cursos, onde deve conter as seguintes entidades:
 
 - Alunos
 - Cursos
 - Matrículas
 
-A aplicação permite realizar operações completas de CRUD, validações com Jakarta Validation, relacionamentos entre entidades e documentação automática da API utilizando Scalar/OpenAPI.
+A aplicação permite realizar operações completas de CRUD: Create, Read, Update, Delete
 
 ---
 
@@ -128,18 +122,6 @@ A API utiliza Jakarta Validation para validação automática dos dados.
 
 ---
 
-# Documentação da API
-
-A documentação da API é gerada automaticamente utilizando Scalar/OpenAPI.
-
-## Acessar documentação
-
-```txt
-http://localhost:8080/docs
-```
-
----
-
 # Pré-requisitos
 
 - Java 21+
@@ -231,3 +213,36 @@ src/main/java
       ├── repository
       └── config
 ```
+
+---
+
+# Documentação da API
+
+Adicionalmente, foi adicionado ao projeto as dependências necessárias para gerar a documentação da API no Swagger e no Scalar
+
+## Acessar documentação
+
+```txt
+- Swagger
+http://localhost:8080/swagger-ui/index.html
+
+- Scalar
+http://localhost:8080/docs
+```
+
+Em ambas é possível baixar o json para exportar os endpoints para execução no software de sua preferência (Postman, Insomnia, Bruno)
+
+---
+
+# Autor
+
+Matheus Felipe de Aguiar
+
+E-mails: 
+
+```txt
+> maguiar@alunos.utfpr.edu.br
+> matheusfelipem336@gmail.com
+```
+
+---
