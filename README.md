@@ -14,34 +14,31 @@ O intuito é realizar o gerenciamento de cursos, que deve possuir as seguintes e
 
 # Funcionalidades
 
-CRUD completo de todas as entidades
-
-
 
 ## Alunos
 
 - Cadastro de alunos
-- Consulta por ID
-- Listagem paginada
+- Consulta de alunos por ID
+- Listagem completa de alunos com paginação
 - Atualização de dados
 - Remoção de alunos
 
 ## Cursos
 
 - Cadastro de cursos
-- Consulta por ID
-- Listagem paginada
-- Atualização de cursos
+- Consulta de cursos por ID
+- Listagem completa de cursos com paginação
+- Atualização de dados
 - Remoção de cursos
 
 ## Matrículas
 
 - Cadastro de matrículas
+- Consulta de matriculas por ID
+- Listagem completa de matriculas com paginação
+- Atualização de dados
+- Remoção de matrículas
 - Associação entre aluno e curso
-- Consulta por ID
-- Listagem paginada
-- Atualização de matrículas
-- Exclusão de matrículas
 
 ---
 
@@ -62,7 +59,7 @@ CRUD completo de todas as entidades
 |---|---|---|
 | POST | `/aluno` | Cadastra um aluno |
 | GET | `/aluno/{id}` | Busca aluno por ID |
-| GET | `/aluno` | Lista alunos paginados |
+| GET | `/aluno` | Lista completa de alunos |
 | PUT | `/aluno/{id}` | Atualiza um aluno |
 | DELETE | `/aluno/{id}` | Remove um aluno |
 
@@ -74,7 +71,7 @@ CRUD completo de todas as entidades
 |---|---|---|
 | POST | `/curso` | Cadastra um curso |
 | GET | `/curso/{id}` | Busca curso por ID |
-| GET | `/curso` | Lista cursos paginados |
+| GET | `/curso` | Lista completa de cursos |
 | PUT | `/curso/{id}` | Atualiza um curso |
 | DELETE | `/curso/{id}` | Remove um curso |
 
@@ -86,7 +83,7 @@ CRUD completo de todas as entidades
 |---|---|---|
 | POST | `/matricula` | Cadastra uma matrícula |
 | GET | `/matricula/{id}` | Busca matrícula por ID |
-| GET | `/matricula` | Lista matrículas paginadas |
+| GET | `/matricula` | Lista completa de matrículas |
 | PUT | `/matricula/{id}` | Atualiza uma matrícula |
 | DELETE | `/matricula/{id}` | Remove uma matrícula |
 
@@ -94,7 +91,7 @@ CRUD completo de todas as entidades
 
 # Paginação
 
-Os endpoints de listagem suportam paginação automática utilizando Spring Pageable.
+Os endpoints de listagem completa suportam paginação automática utilizando Spring Pageable.
 
 ## Exemplo
 
