@@ -2,7 +2,7 @@
 
 API REST desenvolvida com Spring Boot para a matéria IS29S da Universidade Tecnológica Federal do Paraná - DV
 
-O intuito é realizar o gerenciamento de cursos, onde deve conter as seguintes entidades:
+O intuito é realizar o gerenciamento de cursos, que deve possuir as seguintes entidades:
 
 - Alunos
 - Cursos
