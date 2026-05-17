@@ -245,7 +245,7 @@ E-mails:
 
 ```txt
 ~$ maguiar@alunos.utfpr.edu.br
-# matheusfelipem336@gmail.com
+~# matheusfelipem336@gmail.com
 ```
 
 ---
